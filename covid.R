@@ -45,7 +45,6 @@ ggplot(data = plotDat, mapping = aes(x = day, y = deaths)) +
   geom_point() + 
   geom_smooth()
 
-
 #by country
 #View(dd %>% select(Country.Region, X2.21.20) %>% group_by(Country.Region) %>% summarise(n = sum(X2.21.20)))
 
